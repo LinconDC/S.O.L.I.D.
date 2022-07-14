@@ -6,6 +6,7 @@ import java.math.RoundingMode;
 import br.com.alura.rh.ValidacaoException;
 import br.com.alura.rh.model.Funcionario;
 
+	//Single Responsability Principle
 public class ReajusteService {
 
 	public void reajustarSalarioDoFuncionario(Funcionario funcionario, BigDecimal aumento) {
