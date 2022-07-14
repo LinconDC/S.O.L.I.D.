@@ -6,7 +6,7 @@ import java.math.RoundingMode;
 import br.com.alura.rh.ValidacaoException;
 import br.com.alura.rh.model.Funcionario;
 
-public class ValidacaoPercentualReajuste implements ValidacaoReajuste{
+public class ValidacaoPercentualReajuste implements ValidacaoReajuste {
 
 	public void validar(Funcionario funcionario, BigDecimal aumento) {
 		BigDecimal salarioAtual = funcionario.getSalario();
